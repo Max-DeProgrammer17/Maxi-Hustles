@@ -56,3 +56,40 @@
   display: inline;
   padding: 0px 20px 0px 0px;
 }
+
+/* SECTION - INTRO */
+.intro{
+    height: 470px;
+    width: 100%;
+    background-color: red;
+    background-image: url("/Images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: brightness(60%); */
+}
+
+.intro .text{
+    position: relative;
+    top: 35%;
+    left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    color: white;
+    width: 45%;
+}
+
+.intro_btn{
+    border: none;
+    border-radius: 0.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: navy;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px;
+}
+
+.intro_btn a{
+    text-decoration: none;
+    color: white;
+}
