@@ -136,7 +136,9 @@
   grid-row: 1 / span 2;
 }
 
-.categ_head {
+.categ_head,
+.how_head,
+.top_head {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 16px 0px 0px 0px;
   text-align: center;
@@ -175,3 +177,6 @@
   border-radius: 50%;
   padding-top: 5px;
 }
+
+/* SECTION HOW */
+
