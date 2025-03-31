@@ -61,7 +61,7 @@
   }
 
   /* SECTION Main */
-  .main{}
+  /* .main{} */
   .main .head, .head{
     font-size: 2rem;
     font-weight: bold;
