@@ -77,12 +77,38 @@
   }
 
   /* learn css ani to finish auto type head */
-  .main .css-anim > p{
-    text-align: center;
+
+  .flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .css-anim{
+     display: inline-block;
+  }
+   .css-anim > .text{
     color: #34c759;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1.8rem;
+    letter-spacing: 6px;
+    border-right: 5px solid black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s steps(46) infinite,
+    cursor .4s step-end infinite alternate;
+  }
+
+
+  @keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+  }
+
+  @keyframes typing{
+        from {width: 0;}
   }
 
   /* SECTION Team */
