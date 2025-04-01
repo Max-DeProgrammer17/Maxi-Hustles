@@ -59,3 +59,71 @@
     display: inline;
     padding: 0px 20px 0px 0px;
   }
+
+  /* FORM SECTION */
+  .form{
+    background-color: red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form{
+    background-color: blue;
+    border-radius: 0.2rem;
+    width: 25%;
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+  }
+
+  .form form .holder{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form form 
+  form label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  form input{
+    width: 270px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #34c759;
+    outline-color: navy;
+  }
+
+  form button{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #34c759;
+    color: white;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .form img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid #34c759;
+  }
+
+  form i{
+    color: #34c759;
+  }
