@@ -50,7 +50,8 @@ subBtn.addEventListener("click", (e)=>{
 
         localStorage.setItem("Username", userName.value);
         localStorage.setItem("Email", email.value);
-
+        localStorage.setItem("Password", password1.value);
+        
     }
   })
    }
