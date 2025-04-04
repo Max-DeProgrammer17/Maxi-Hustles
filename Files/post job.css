@@ -141,3 +141,29 @@
     font-weight: bold;
     font-size: 2rem;
 }
+
+/* MAIN STYLES */
+
+.main_cont{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_cont div{
+  background-color: navy;
+  color: white;
+  border-radius: 0.2rem;
+  width: 25%;
+  height: 120px;
+  text-align: center;
+}
+
+.main_cont h2{
+  padding: 6px 0px 4px 0px;
+  font-size: 1.7rem;
+
+}
