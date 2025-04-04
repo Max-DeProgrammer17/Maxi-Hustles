@@ -34,5 +34,3 @@ btn.addEventListener("click", (e) => {
   
 });
 
- export {array};
-
