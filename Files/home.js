@@ -4,7 +4,7 @@ let userName = document.querySelector(".test-name");
 let bio = document.querySelector(".test-bio");
 let leftBtn = document.querySelector("#left");
 let rightBtn = document.querySelector("#right");
-let arrayUser = [
+    let arrayUser = [
     {
         userNom: "Jessica Taylor (Austin, Texas)",
         usertest:"Maxi Hustles revolutionized my freelancing experience. The platform is user-friendly, and I've secured reliable clients who appreciate quality. It's been a game-changer for my career!"
@@ -28,16 +28,23 @@ let arrayUser = [
     usertest:"As a graphic designer, finding clients who value creativity was a challenge—until I discovered Maxi Hustles. It's hands-down the best freelancing platform!"
   }
 ];
-
 let random = Math.trunc(Math.random()* arrayUser.length ) + 1;
 let current = 0;
 
+function change(){
+    userName.textContent = arrayUser[current].userNom;
+      bio.textContent = arrayUser[current].usertest;
+ }
 rightBtn.addEventListener("click", (e) => {
-    for (let i = 0; i < arrayUser.length; i++) {
-        userName.textContent = arrayUser[i].userNom;
-        bio.textContent = arrayUser[i].
-        
-    }
+    leftBtn.addEventListener("click", ()=>{
+        current = (current - 1 + arrayUser.length) % arrayUser.length;
+        change();
+      });
+    
+        rightBtn.addEventListener("click", () => {
+          current = (current + 1) % arrayUser.length;
+          change();
+        });
     
 })
 
